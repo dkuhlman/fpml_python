@@ -1,0 +1,39 @@
+<h1>fpml_python</h1>
+<p>Python support for FpML (Financial products Markup Language) generated with <code>generateDS.py</code></p>
+<p>This archive contains Python modules generated from the FpML XML
+schemas.  Using Python and these modules will enable you to do the
+following:</p>
+<ul>
+<li>
+<p>Read an FpML XML instance document and create instances of the
+  relevant generated classes.</p>
+</li>
+<li>
+<p>Manipulate the instances of those classes using Python.</p>
+</li>
+<li>
+<p>Create new istances of the Python classes that represent FpML XML
+  elements.</p>
+</li>
+<li>
+<p>Write (export) the FpML XML instance document.</p>
+</li>
+</ul>
+<h2>Notes on the generated files</h2>
+<p>Files in this repository with names <code>fpmllib/xxxxlib.py</code> contain the class
+definitions for each element type defined in the XML Schema.</p>
+<p>Files in this repository with names <code>fpmllib/xxxxxapp.py</code> contain
+subclass definitions for the classes defined in the associated
+<code>fpmllib/xxxxlib.py</code> file.  If you intend to write custom code that
+uses the generated class definitions, you might want to consider
+making a copy of the relevant <code>fpmllib/xxxxxapp.py</code> file, then
+adding your application code to that file.</p>
+<p>The XML schemas are those in the archive downloaded from this
+location:
+<a href="http://www.fpml.org/spec/fpml-5-9-3-wd-3/xml/fpml-5-9-master-schema-and-key-gen-scripts.zip">http://www.fpml.org/spec/fpml-5-9-3-wd-3/xml/fpml-5-9-master-schema-and-key-gen-scripts.zip</a></p>
+<h2>More information</h2>
+<p>You can learn more about FpML here: http://www.fpml.org/</p>
+<p>You can learn more about <code>generateDS.py</code> here:
+<a href="http://www.davekuhlman.org/#generateds-py">http://www.davekuhlman.org/#generateds-py</a></p>
+<p>You can learn more about the Python programming language here:
+<a href="https://www.python.org/">https://www.python.org/</a></p>

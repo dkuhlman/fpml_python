@@ -36,6 +36,9 @@ location:
 
 ## More information
 
+There is documentation (generated with `pydoc`) in the `docs`
+subdirectory.  Also see the `bash` script: `docs/generate_docs`.
+
 You can learn more about FpML here: http://www.fpml.org/
 
 You can learn more about `generateDS.py` here:

@@ -1,0 +1,44 @@
+#!/bin/bash -x
+
+# Before running this, must add to PYTHONPATH.  For example:
+#
+#    $ export PYTHONPATH=:../fpmllib
+
+pydoc -w fpml_assetlib
+pydoc -w fpml_bondoptionlib
+pydoc -w fpml_business_eventslib
+pydoc -w fpml_cdlib
+pydoc -w fpml_clearing_processeslib
+pydoc -w fpml_collateral_processeslib
+pydoc -w fpml_comlib
+pydoc -w fpml_confirmation_processeslib
+pydoc -w fpml_correlation_swapslib
+pydoc -w fpml_credit_event_notificationlib
+pydoc -w fpml_dividend_swapslib
+pydoc -w fpml_doclib
+pydoc -w fpml_enumlib
+pydoc -w fpml_eqdlib
+pydoc -w fpml_eq_sharedlib
+pydoc -w fpml_fx_accrualslib
+pydoc -w fpml_fxlib
+pydoc -w fpml_fx_targetslib
+pydoc -w fpml_genericlib
+pydoc -w fpml_irdlib
+pydoc -w fpml_legallib
+pydoc -w fpml_loanlib
+pydoc -w fpml_mktenvlib
+pydoc -w fpml_msglib
+pydoc -w fpml_option_sharedlib
+pydoc -w fpml_pretrade_processeslib
+pydoc -w fpml_reconciliationlib
+pydoc -w fpml_recordkeeping_processeslib
+pydoc -w fpml_repolib
+pydoc -w fpml_reportinglib
+pydoc -w fpml_return_swapslib
+pydoc -w fpml_riskdeflib
+pydoc -w fpml_sharedlib
+pydoc -w fpml_standardlib
+pydoc -w fpml_transparency_processeslib
+pydoc -w fpml_valuationlib
+pydoc -w fpml_valuation_reportinglib
+pydoc -w fpml_variance_swapslib
